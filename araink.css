@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Yanone+Kaffeesatz:wght@200..700&display=swap');
+
+.bevezeto
+{
+    font-family: 'Yanone Kaffeesatz';
+    background: #ff7e5f;  
+    background: -webkit-linear-gradient(to right, #feb47b, #ff7e5f);  
+    background: linear-gradient(to right, #feb47b, #ff7e5f); 
+    border-radius: 10px;    
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: auto;
+    padding: 20px;
+    margin-top: 3dvh;
+    color: #fff;
+    display: block;
+}
+
+.bevezeto h1
+{
+    font-size: clamp(0.8dvw, 5dvw, 5dvw);
+    letter-spacing: 0.4dvw;
+    text-transform: uppercase;
+}
+
+.bevezeto p
+{
+    font-size: 3dvw;
+}
+
+.langos-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.langos-container {
+    display: flex;
+    align-items: center;
+    background: white;
+    width: 90%;
+    max-width: 800px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+}
+
+.langos-container:hover {
+    transform: scale(1.02);
+}
+
+.langos-container img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    margin-right: 20px;
+    object-fit: cover;
+    border: 2px solid #555;
+}
+
+.langos-info {
+    flex-grow: 1;
+    text-align: left;
+}
+
+.langos-info h2 {
+    margin: 0;
+    font-size: 22px;
+    color: #d35400;
+}
+
+.osszetevok {
+    font-size: 16px;
+    color: #555;
+}
+
+.ar {
+    font-size: 18px;
+    font-weight: bold;
+    color: #27ae60;
+    margin-top: 5px;
+}

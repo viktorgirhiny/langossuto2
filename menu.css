@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body
+{
+    font-family: 'Poppins';
+    margin: auto auto;
+    min-width: 375px;
+    padding-left: 1dvw ;
+    padding-right: 1dvw;
+}
+
+nav
+{
+    background-color:rgba(230, 230, 230, 0.6);
+    border:2px solid #333;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-left
+{
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 0;
+    justify-content: center;
+    padding-top: 0.5dvh;
+}
+
+.header-left img
+{
+    width: auto;
+    height: 8dvw;
+    border-radius: 50%;
+}
+
+.header-right
+{
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.header-right ul
+{
+    display: flex;
+    font-size: clamp(0.8dvw, 1.7dvw, 1.7dvw);
+    gap: calc(100dvw - 98dvw);
+    padding-left: 20dvw;
+}
+
+.header-right a 
+{
+    text-decoration: none;
+    color: #333;
+}
+
+.header-right a:hover
+{
+    font-weight: 450;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(150px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.animated-element {
+    animation: slideIn 0.8s ease-out;
+}
