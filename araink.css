@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Yanone+Kaffeesatz:wght@200..700&display=swap');
 
-.bevezeto
+/*  .bevezeto
 {
     font-family: 'Yanone Kaffeesatz';
     background: #ff7e5f;  
@@ -11,24 +11,26 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: auto;
+    height: 25vh;
     padding: 20px;
-    margin-top: 3dvh;
+    margin-top: 3vh;
     color: #fff;
     display: block;
 }
 
 .bevezeto h1
 {
-    font-size: clamp(0.8dvw, 5dvw, 5dvw);
-    letter-spacing: 0.4dvw;
+    font-size: clamp(0.8vw, 5vw, 5vw);
+    letter-spacing: 0.4vw;
     text-transform: uppercase;
 }
 
 .bevezeto p
 {
-    font-size: 3dvw;
+    font-size: 3vw;
 }
+
+*/
 
 .langos-list {
     display: flex;
@@ -43,11 +45,16 @@
     align-items: center;
     background: white;
     width: 90%;
-    max-width: 800px;
-    padding: 20px;
+    max-width: 80vw;
+    padding: 2vw;
     border-radius: 10px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
     transition: transform 0.2s;
+    border-image: linear-gradient(to right, #feb47b 0%, #ff7e5f 100%) 1;
+    border-radius: 5px; /* this doesn't work */
+    border-width: 4px;
+    border-style: solid;
+    padding: 5px;
 }
 
 .langos-container:hover {
@@ -55,10 +62,10 @@
 }
 
 .langos-container img {
-    width: 150px;
-    height: 150px;
+    width: 15vw;
+    height: 15vw;
     border-radius: 10px;
-    margin-right: 20px;
+    margin-right: 2vw;
     object-fit: cover;
     border: 2px solid #555;
 }
@@ -70,17 +77,17 @@
 
 .langos-info h2 {
     margin: 0;
-    font-size: 22px;
+    font-size: 2vw;
     color: #d35400;
 }
 
 .osszetevok {
-    font-size: 16px;
+    font-size: 1.4vw;
     color: #555;
 }
 
 .ar {
-    font-size: 18px;
+    font-size: 1.6vw;
     font-weight: bold;
     color: #27ae60;
     margin-top: 5px;

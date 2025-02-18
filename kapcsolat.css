@@ -1,52 +1,30 @@
         .elerhetoseg h2
         {
-            font-size: 2.3dvw;
+            font-size: 2.3vw;
         }
 
         #jel
         {
-            font-size: 1.3dvw;
-        }
-        
-        .nyitva-menu
-        {
-            text-align: center;
-        }
-
-        .title
-        {
-            padding-left: 2.8dvw;
-            font-size: 2dvw;
-        }
-
-        .nyitva {
-            list-style-type: none;
-            font-size: 1.3dvw;
+            font-size: 1.3vw;
         }
 
         svg {
-            width: 1.5dvw;
+            width: 1.5vw;
             height: auto;
         }
 
-        .also-menu {
-            background-color: black;
-            color: white;
-            padding: 1dvw;
-            text-align: center;
+        .container
+        {
+            margin: auto;
+            justify-content: center;
+            align-items: center;
         }
 
-        .also-menu a {
-            color: white;
-            text-decoration: none;
-            margin: 0 1.5dvw;
-            font-size: 1.2dvw;
-        }
-
-        .menu {
-            width: 100%;
-            padding-bottom: 0;
-            background-color: red;
+        iframe
+        {
+            width:100%;
+            height: 35vw;
+            border: 0;
         }
 
         .logo2 {
@@ -54,18 +32,16 @@
             height: 100%;
             border: none;
             border-radius: 8px;
-            background-color: blue;
         }
 
         .logo1 {
             align-items: center;
             display: flex;
             justify-content: center;
-            background-color: yellow;
         }
 
         img {
-            width: 20dvw;
+            width: 20vw;
             height: auto;
         }
 
