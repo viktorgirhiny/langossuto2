@@ -1,0 +1,77 @@
+.bemutatkozas
+{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+.elso h1
+{
+    text-align: center;
+    font-size: 2.3vw;
+}
+
+.elso p
+{
+    text-align: center;
+    font-size: 1.2vw;
+    justify-content: justify;
+    width: 30%;
+    margin-top: -1.8vw;
+    margin-bottom: 3vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.masodik
+{
+    border: 3px solid #d3d3d3;
+    border-radius: 10px;
+    padding: 1vw;
+}
+
+.masodik h2
+{
+    text-align: left;
+    font-size: 2vw;
+}
+
+.masodik p
+{
+    font-weight: 400;
+    font-size: 1.2vw;
+}
+
+.harmadik
+{
+    border: 3px solid #d3d3d3;
+    border-radius: 10px;
+    padding: 1vw;
+    margin-top: 2vw;
+}
+
+.harmadik h2
+{
+    font-size: 2vw;
+}
+
+.harmadik li
+{
+    list-style-type: none;
+    font-weight: 400;
+    font-size: 1.2vw;
+    text-align: left;
+}
+
+.negyedik
+{
+    border: 3px solid #d3d3d3;
+    border-radius: 10px;
+    padding: 1vw;
+    margin-top: 2vw;;
+}
+
+.negyedik h2
+{
+    font-size: 2vw;
+}
