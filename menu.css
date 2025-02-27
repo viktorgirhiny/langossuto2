@@ -6,8 +6,8 @@ body
     font-family: 'Poppins';
     margin: auto auto;
     min-width: 375px;
-    padding-left: 1dvw ;
-    padding-right: 1dvw;
+    padding-left: 1vw ;
+    padding-right: 1vw;
 }
 
 nav
@@ -31,7 +31,7 @@ nav
 .header-left img
 {
     width: auto;
-    height: 8dvw;
+    height: 8vw;
     border-radius: 50%;
 }
 
@@ -45,9 +45,9 @@ nav
 .header-right ul
 {
     display: flex;
-    font-size: clamp(0.8dvw, 1.7dvw, 1.7dvw);
-    gap: calc(100dvw - 98dvw);
-    padding-left: 20dvw;
+    font-size: clamp(0.8vw, 1.7vw, 1.7vw);
+    gap: calc(100vw - 98vw);
+    padding-left: 20vw;
 }
 
 .header-right a 
