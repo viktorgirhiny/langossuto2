@@ -1,0 +1,98 @@
+.container-velemeny {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.container-velemeny h1 {
+    color: black;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 2.3vw;
+}
+.ajanlasok {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.ajanlas {
+    flex: 1;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.ajanlas:hover{
+    transform: scale(1.05);
+}
+.ajanlas img {
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+.nev {
+    font-weight: bold;
+    margin-top: 10px;
+}
+.szerep {
+    font-style: italic;
+    color: gray;
+}
+.csillag {
+    color: gold;
+    margin-top: 5px;
+}
+.nev, .szerep, .csillag, .velemeny
+{
+    font-size: 1.2vw;
+}
+.container-kepAr{
+    display: block;
+    margin-top: 20px;
+    border: 3px solid #d3d3d3;
+    border-radius: 10px;
+}
+.kepAr1{
+    font-size: 1.7vw;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid #d3d3d3;
+}
+.kepAr1 img{
+    width: 25vw;
+    height: auto;
+}
+.kepAr1 p{
+    padding-top: 7.5vw;
+    padding-right: 10vw;
+}
+.kepAr2{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.7vw;
+    border-bottom: 3px solid #d3d3d3;
+}
+.kepAr2 img{
+    width: 25vw;
+    height: auto;
+}
+.kepAr2 p{
+    padding-top: 7.5vw;
+    padding-left: 10vw;
+}
+.kepAr_utolso{
+    font-size: 1.7vw;
+    display: flex;
+    justify-content: space-between;
+}
+.kepAr_utolso img{
+    width: 25vw;
+    height: auto;
+}
+.kepAr_utolso p{
+    padding-top: 7.5vw;
+    padding-left: 10vw;
+}
