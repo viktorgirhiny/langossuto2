@@ -1,3 +1,11 @@
+:root
+{
+    --text-color: #1a1c20;
+    --link-color: orangered;
+    --color: orangered;
+    --background-color: #eeeff1;
+}
+       
         .elerhetoseg h2
         {
             font-size: 2.3vw;
@@ -48,3 +56,70 @@
         .menu .logo1 img:hover {
             transform: scale(1.05);
         }
+
+.contact-section
+{
+    padding: 0 50px;
+    margin-bottom: 100px;
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-section h2
+{
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+.contact-section .group
+{
+    gap: 50px;
+}
+
+.contact-section .group .text
+{
+    flex: 3;
+    margin-top: 1.8vw;
+}
+
+.contact-section .group form
+{
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-section .group form input,
+.contact-section .group form textarea,
+.contact-section .group form select
+{
+    font-family: 'Poppins', sans-serif;
+    border: 3px solid var(--link-color);
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 1vw;
+    outline: none;
+    resize: none;
+    font-size: 1.1vw;
+}
+
+.contact-section .group form button
+{
+    font-size: 1.3vw;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    background-color:  var(--link-color);
+    border: none;
+    height: 4vw;
+    cursor: pointer;
+    transition: .3s;
+    border-radius: 3px;
+}
+
+.contact-section .group form button:hover
+{
+    filter: brightness(0.8);
+    color: #fff;
+}
