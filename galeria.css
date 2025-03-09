@@ -1,3 +1,9 @@
+.galeria-menu
+{
+    max-width: 80%;
+    margin: auto auto;
+}
+
 .fejlec {
     padding: 2vw;
     text-align: center;
